@@ -8,12 +8,12 @@ You can test your function when you’re ready by passing in the greetings array
 */
 
 // Write your code here:
-const shoutGreetings = (array) => {
-  let newArray = [];
-  for (i = 0; i < array.length; i++) {
-    newArray.push(array[i].toUpperCase() + "!");
+const shoutGreetings = (arr) => {
+  newArr = [];
+  for (i = 0; i < arr.length; i++) {
+    newArr.push(arr[i].toUpperCase() + "!");
   }
-  return newArray;
+  return newArr;
 };
 
 // Feel free to uncomment out the code below to test your function!
